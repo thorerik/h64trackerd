@@ -1,0 +1,22 @@
+{
+    "name": "thorerik/h64trackerd",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thor Erik Lie",
+            "email": "thor@thorerik.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+	"autoload": {
+		"psr-4": {
+		    "Thorerik\\H64Trackerd\\": "src/"
+		},
+		"classmap": [
+		    "src/"
+		]
+	}
+}

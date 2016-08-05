@@ -40,7 +40,7 @@ while (true) {
 
     $rustart = getrusage();
 
-    $res = $guzzle->get('0/0/0/30000000');
+    $res = $guzzle->get('64/0/0/9999999');
     $body = (string)$res->getBody();
 
     $json = json_decode($body, true, 512, JSON_BIGINT_AS_STRING);
